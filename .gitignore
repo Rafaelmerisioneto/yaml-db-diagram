@@ -1,0 +1,30 @@
+# Configurações locais de IDEs
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Dependências, builds e cobertura
+node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Variáveis de ambiente e credenciais locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs e arquivos temporários
+*.log
+tmp/
+temp/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
